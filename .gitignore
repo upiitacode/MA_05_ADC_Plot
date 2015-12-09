@@ -11,3 +11,5 @@ tests/gmock_test
 
 *.swp
 *.[oa]
+*.swp
+*.pyc
