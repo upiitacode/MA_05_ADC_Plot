@@ -36,7 +36,7 @@ int main(){
 	adc_timer6_start();
 	while(1){
 		serial.printf("adc_ch1 = %u\n",adc_getInjectedChannelValue(ADC_INJECTED_CH1));
-		osDelay(200);
+		osDelay(50);
 	}
 }
 
